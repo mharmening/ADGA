@@ -1,3 +1,3 @@
-# ADGA (development version)
+# ADGA 0.1.0
 
 * Initial CRAN submission.
