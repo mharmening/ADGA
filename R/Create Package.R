@@ -2,7 +2,7 @@
 usethis::use_git()
 
 # Lizenz setzen (MIT ist für akademische Open-Source-Pakete üblich)
-usethis::use_mit_license("Dein Name")
+usethis::use_mit_license("Morten Harmening")
 
 # Roxygen2 für Dokumentation aktivieren
 usethis::use_roxygen_md()

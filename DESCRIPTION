@@ -1,11 +1,22 @@
 Package: ADGA
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Title: Automatic Dictionary Generation Approach for Text Analysis
+Version: 0.1.0
+Authors@R: c(
+    person("Sebastian", "Block", email = "", role = c("aut")),
+    person("Morten", "Harmening", email = "m.harmening@ipw.uni-hannover.de", role = c("aut", "cre")),
+    person("Dominic", "Nyhuis", email = "", role = c("aut")))
+Description: Transparent, automated keyword selection for concept-specific 
+    dictionaries using tf-idf, chi-square, and wordscores in a voting model.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
+Imports:
+    dplyr,
+    tidyr,
+    stringr,
+    tidytext,
+    udpipe,
+    stopwords,
+    tibble,
+    purrr
