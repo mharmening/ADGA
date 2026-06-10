@@ -48,7 +48,7 @@ adga_preprocess <- function(data,
 
   if (length(uids) != nrow(data)) {
     warning("Number of unique doc_ids does not match nrow(data). ",
-            "Mapping by row order — please verify.")
+            "Mapping by row order -- please verify.")
   }
 
   crosswalk <- tibble::tibble(doc_id = uids, .row = seq_along(uids))
